@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <div>
+    	<lightning:button
+                          variant = "brand"
+                          label = "Provider Newsletter"
+                          onclick="{!c.openPage}"/>
+    </div>    
+</aura:component>
